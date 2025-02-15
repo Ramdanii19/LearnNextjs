@@ -1,4 +1,4 @@
-@use "@/styles/colors.scss";
+@use "@/styles/colors.scss" as colors;
 
 .login {
   display: flex;
@@ -6,5 +6,5 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: map-get($schema, primary);
+  background-color: map-get(colors.$schema, primary);
 }
